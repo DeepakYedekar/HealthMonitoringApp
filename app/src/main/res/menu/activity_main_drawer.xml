@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_bmi"
+            android:menuCategory="secondary"
+            android:title="@string/bmi" />
+
+        <item
+            android:id="@+id/news"
+            android:menuCategory="secondary"
+            android:icon="@drawable/ic_news"
+            android:title="@string/health_news"/>
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:menuCategory="secondary"
+            android:icon="@drawable/ic_water"
+            android:title="@string/water_intake" />
+
+        <item
+            android:id="@+id/blog"
+            android:menuCategory="secondary"
+            android:icon="@drawable/ic_blog"
+            android:title="@string/health_blogs"/>
+
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:menuCategory="secondary"
+            android:icon="@drawable/ic_sleep"
+            android:title="@string/sleep_suggestion" />
+
+        <item
+            android:id="@+id/about"
+            android:menuCategory="secondary"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/about" />
+
+
+
+    </group>
+</menu>

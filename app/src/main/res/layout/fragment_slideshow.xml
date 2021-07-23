@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sea"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Age"
+            android:fontFamily="@font/pattaya"
+            android:inputType="numberDecimal"
+            android:padding="30dp"
+            android:textSize="25dp"
+            android:textColorHint="#FDFAF9"
+            android:textColor="#F4EFEF"
+            android:gravity="center"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/age"
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Details"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/pattaya"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:id="@+id/detail"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="For Suggestion"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/pattaya"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:id="@+id/sugge"/>
+
+    <Button
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="#4559F4E5"
+        android:text="RESULT"
+        android:textSize="20dp"
+        android:fontFamily="@font/pattaya"
+        android:layout_marginTop="75dp"
+        android:textColor="#0E0E0E" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="#4559F4E5"
+        android:text="RESET"
+        android:textSize="20dp"
+        android:fontFamily="@font/pattaya"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+</LinearLayout>

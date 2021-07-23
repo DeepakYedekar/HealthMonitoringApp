@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/stars"
+    android:layout_height="match_parent"
+    tools:context=".Upgrade">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:fontFamily="@font/pattaya"
+        android:textColor="@color/teal_200"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="@color/teal_200"
+        android:padding="10dp"
+        android:fontFamily="@font/pattaya"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/input_bg"
+        android:textColor="@color/teal_200"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:fontFamily="@font/pattaya"
+        android:textColorHint="@color/teal_200"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/input_bg"
+        android:textColor="@color/teal_200"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/teal_200"
+        android:padding="10dp"
+        android:fontFamily="@font/pattaya"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/input_bg"
+        android:textColor="@color/teal_200"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_bg"
+            android:text="Upgrade"
+            android:textStyle="bold"
+            android:fontFamily="@font/pattaya"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#5703DAC5"
+            android:textColor="#ABFDF5" />
+
+        <Button
+
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#5703DAC5"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/pattaya"
+            android:background="@drawable/input_bg"
+            android:text="Logout"
+            android:textColor="#ABFDF5" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
